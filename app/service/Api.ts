@@ -26,7 +26,7 @@ export default class Api extends Service {
 
     const profile = new Profile()
     profile.name = profileName
-    const salt = Math.random().toString(32).substring(0, 6)
+    const salt = Math.random().toString(32).substring(2, 8)
     user.name = name
     user.email = email
     user.salt = salt

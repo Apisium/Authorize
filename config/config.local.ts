@@ -1,6 +1,8 @@
 import { DefaultConfig } from './config.default'
 
 export default () => {
-  const config: DefaultConfig = {}
+  const config: DefaultConfig = {
+    middleware: ['hotReload']
+  }
   return config
 }

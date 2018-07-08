@@ -1,12 +1,15 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es2017",
+    "jsx": "react",
+    "target": "esnext",
     "module": "commonjs",
     "strict": true,
     "noImplicitAny": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": true,
     "charset": "utf8",
     "allowJs": false,
     "pretty": true,
@@ -20,7 +23,8 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "inlineSourceMap": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": false
   },
   "exclude": [
     "app/public",

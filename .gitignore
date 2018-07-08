@@ -10,6 +10,8 @@ logs/
 *.lock
 !.autod.conf.js
 *.db
+/dist
+/.cache
 
 app/**/*.js
 test/**/*.js
