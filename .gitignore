@@ -12,6 +12,7 @@ logs/
 *.db
 /dist
 /.cache
+.vs
 
 app/**/*.js
 test/**/*.js

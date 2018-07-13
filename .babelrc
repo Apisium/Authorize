@@ -1,9 +1,13 @@
 {
-  "presets": [
-    ["env", { "useBuiltIns": true, "exclude": ["transform-regenerator"] }]
-  ],
   "plugins": [
-    "fast-async",
     ["import", { "libraryName": "@material-ui/core" }]
-  ]
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        ["env", { "useBuiltIns": true, "exclude": ["transform-regenerator"] }]
+      ],
+      "plugins": ["fast-async"]
+    }
+  }
 }
